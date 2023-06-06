@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    background: radial-gradient(#111, #071a1a);
+}
+
+:root {
+    --yellow: #f9d806;
+    --light-yellow: #ffee80;
+    --black: #130f40;
+    --light-color: #666;
+    --box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* members section start  */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 4rem;
+    margin-top: 1rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.container .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 110rem;
+    height: 25rem;
+    padding: 1rem 0;
+    margin: .5rem 0;
+    border: .1rem solid #fdfdfd;
+    box-shadow: var(--box-shadow);
+    background-color: #f5e4e4;
+    border-radius: 3rem;
+}
+.container .box:hover{
+    background-color: #f7dede;
+    cursor: pointer;
+}
+.container .box1:hover{
+    background-color: #f7dede;
+    cursor: pointer;
+}
+
+.container .box1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 110rem;
+    height: 25rem;
+    padding: 1rem 0;
+    margin: .5rem 0;
+    border: .1rem solid #fdfdfd;
+    box-shadow: var(--box-shadow);
+    background-color: #f5e4e4;
+    border-radius: 3rem;
+}
+
+.container .box img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    box-shadow: var(--box-shadow);
+    border: .2rem dotted #666;
+}
+
+.container .box1 img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    border: .2rem dotted #666;
+    box-shadow: var(--box-shadow);
+}
+
+.container .box .content h4 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+.container .box .content h2{
+    font-size: 3rem;
+    color: var(--black);
+    padding: 1.5rem 0;
+}
+.container .box .content p{
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+
+.container .box1 .content h4 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+.container .box1 .content h2{
+    font-size: 3rem;
+    color: var(--black);
+    padding: 1.5rem 0;
+}
+.container .box1 .content p{
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+

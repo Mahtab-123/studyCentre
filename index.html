@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <!-- JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <div class="container flex">
+            <!-- Mobile Button -->
+            <div class="mobile-btn">
+                <ion-icon name="grid"></ion-icon>
+            </div>
+            <div class="logo">
+                <h2>Study Centre</h2>
+            </div>
+
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html" target="_blank">Home</a></li>
+                <li class="nav-item"><a href="timing.html" target="_blank">Timing</a></li>
+                <li class="nav-item"><a href="members.html" target="_blank">Members</a></li>
+            </ul>
+
+            <a href="#" class="btn">Register</a>
+        </div>
+    </div>
+    <!-- End Menu -->
+
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container flex">
+            <div class="text">
+                <h1 class="mb">
+                    Believe In <br />
+                    <span>Yourself</span> Succeed
+                </h1>
+
+                <p class="mb">
+                    Books, wisdom, silent haven, endless shelves, knowledge seekers, imagination's realm, sanctuary of
+                    learning, portals to countless worlds.
+                </p>
+
+                <a href="#" class="btn mt">Join Now</a>
+            </div>
+
+            <div class="visual">
+                <img src="img/img5.png" alt="image" />
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Why Us -->
+    <div class="section" id="why-us">
+        <div class="container flex">
+            <div class="text">
+                <h2 class="primary mb">Why Choose Us?</h2>
+                <h3 class="secondary mb">Knowledge awaits, join us.</h3>
+                <p class="tertiary">
+                    Discover limitless knowledge. Embrace the library's embrace.
+                </p>
+
+                <h3 class="secondary mb">Compete With Each Other</h3>
+                <p class="tertiary">
+                    Unlock the power of knowledge within our library's walls. Explore, learn, and grow with us.
+                </p>
+            </div>
+            <div class="visual">
+                <img src="img/img6.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- End Why Us -->
+
+    <!-- Testimonial -->
+    <div class="section" id="testimonial">
+        <div class="container flex">
+            <div class="text">
+                <h2 class="primary">
+                    That's What Our Super <br />
+                    Students Says
+                </h2>
+
+                <br />
+                <br />
+                <br />
+
+                <div class="client">
+                    <img src="img/img2.jpg" alt="" />
+                    <h2 class="secondary">Exelent Training</h2>
+                    <p class="tertiary">
+                        The library is a treasure trove of knowledge, a peaceful sanctuary for the mind. With its vast
+                        collection and tranquil atmosphere, it fosters a love for learning and endless exploration.
+                    </p>
+                </div>
+            </div>
+            <div class="visual">
+                <img src="img/img3.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonial -->
+
+    <!-- Discount -->
+    <div class="section" id="discount">
+        <div class="container flex">
+            <div class="visual">
+                <img src="img/img10.png" alt="" />
+            </div>
+            <div class="text">
+                <h2 class="primary mb">
+                    Join Library This Summer, Pay Now And Get 25% Discount
+                </h2>
+
+                <p class="tertiary mb">
+                    Enjoy a limited-time offer of a 25% discount on all library services. Dive into books, access
+                    digital resources, and expand your horizons while saving on your library journey. Don't miss out!
+                </p>
+
+                <a href="#" class="btn bt">Book Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Discount -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container flex">
+            <p class="tertiary">
+                &copy; 2023 Avalon. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <script>
+        document.querySelector('.btn').onclick = () => {
+        document.querySelector('.login-form-container').classList.toggle('active');
+    }
+    
+    document.querySelector('#close-login-form').onclick = () => {
+        document.querySelector('.login-form-container').classList.remove('active');
+    }
+
+    </script>
+</body>
+
+</html>
